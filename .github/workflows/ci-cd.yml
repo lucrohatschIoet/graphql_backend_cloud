@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - main
-      - feat/CI-CD
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
