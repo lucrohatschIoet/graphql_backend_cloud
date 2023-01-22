@@ -33,7 +33,7 @@ jobs:
       #    aws-region: $AWS_REGION
       
       - name: Setup Terraform CLI
-        uses: hashicorp/setup-terraform@v3
+        uses: hashicorp/setup-terraform@v2
 
       - name: Terraform init, validate and plan
         id: plan
