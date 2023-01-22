@@ -1,11 +1,11 @@
 terraform {
 
-  #backend "s3" {
-  #  bucket  = "tfstate"
-  #  key     = "infra.tfstate"
-  #  region  = "us-east-1"
-  #  encrypt = true
-  #}
+  backend "s3" {
+    bucket  = "gbc-tfstate"
+    key     = "infra.tfstate"
+    region  = "us-east-1"
+    encrypt = true
+  }
 
   required_providers {
     aws = {
